@@ -1,12 +1,12 @@
-@import url(https://db.onlinewebfonts.com/c/7dca09e227fdfe16908cebb4244589e4?family=Georgia);
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
         *  {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Lucida Bright", Georgia, serif;
+            font-family: "Happy Monkey";
         }
 .p1 {
-    font-family: "Lucida Bright", Georgia, serif;
+    font-family: "Happy Monkey";
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
@@ -16,12 +16,12 @@
 }
 
 .h1 {
-    font-family: "Lucida Bright", Georgia, serif;
+    font-family: "Happy Monkey";
     color: #d09b89;
 }
 
 .h4 {
-    font-family: "Lucida Bright", Georgia, serif;
+    font-family: "Happy Monkey";
     color: #22201e;
 }
 html,body{
@@ -153,9 +153,9 @@ form .btn button:hover{
   background: #cbe6c3;
 }
 body {background-color: #e1ffd8}
-            .p1 {font-family: "Lucida Bright", Georgia, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
-            .h1 {font-family: "Lucida Bright", Georgia, serif; color: #000000;}
-            .h4 {font-family: "Lucida Bright", Georgia, serif; color: #000000;}
+            .p1 {font-family: "Happy Monkey"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+            .h1 {font-family: "Happy Monkey", serif; color: #000000;}
+            .h4 {font-family: "Happy Monkey"; color: #000000;}
             .Logoimg {display: block; margin-left: auto; margin-right: auto;}
             .menuBGColor {background-color: #e1ffd8;}
             .alink {color: #e1ffd8; background-color: transparent;text-decoration: none;}
