@@ -1,6 +1,6 @@
 body {
     background-color: #e1ffd8;
-    font-family: Merriweather, Arial;
+    font-family: "Happy Monkey";
   }
   
   form {
@@ -42,7 +42,7 @@ table {
 thead th {
   background: #e1ffd8;
   color: #e1ffd8;
-  font-family: 'Lato', sans-serif;
+  font-family: "Happy Monkey";
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ tr {
 }
 
 th, td {
-  font-family: 'Georgia', sans-serif;
+  font-family: "Happy Monkey";
   font-weight: 400;
   font-size: 12px;
   padding: 10px;
