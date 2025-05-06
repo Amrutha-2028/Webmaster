@@ -115,7 +115,7 @@ form header{
 form .textarea{
   height: 100px;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; color:#0000
 }
 form .textarea textarea{
   height: 100%;
