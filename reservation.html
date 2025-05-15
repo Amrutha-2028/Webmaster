@@ -1,5 +1,7 @@
 <html>
     <title> Nature's Cafe </title>
+    <link rel="stylesheet" href="ratestyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
     <head>
         <style>
@@ -28,7 +30,7 @@
                                 .alink {color: #e1ffd8; background-color: transparent;text-decoration: none;}
                                 .btn-group .topButton {background-color: #966b57;
                                     border: none;
-                                    color: #e1ffd8;
+                                    color: #9effdb;
                                     padding: 2px 40px;
                                     text-align: center;
                                     text-decoration: none;
@@ -72,29 +74,31 @@
 </head>
 
 <body>
+    <br>
     <section>
         <form>
             <h1>We will need some information about you!</h1>
+            
             <section class="firstname">
                 <label for="firstname">What is your first name?</label>
                 <input type="text" name="firstname" id="firstname" />
             </section>
-            <hr />
+            
             <section class="lastname">
                 <label for="lastname">What is your last name?</label>
                 <input type="text" name="lastname" id="lastname" />
             </section>
-            <hr />
+            
             <section class="phonenum">
               <label for="phonenum">What is your phone number?</label>
               <input type="text" name="phonenum" id="phonenum" />
           </section>
-          <hr />
+          
           <section class="emailid">
             <label for="emailid">What is your email address?</label>
             <input type="text" name="emailid" id="emailid" />
         </section>
-        <hr />
+        <br>
             <h1>Where will you reserving your table(s)?</h1>
             <section class="locationorder">
                 <label for="locationorder">Type in the address of the store you will be picking up your order.</label>
@@ -110,7 +114,8 @@
                     <option value = "4">4</option>
                   </select>
             </section>
-            <hr />
+            <hr style="width: 100%; height: 2px; background-color: black; border: none;">
+            <br>
             <section class="submission">
                 <a href="reservationsubmission.html" class = "button">Submit</a>
                 </section>

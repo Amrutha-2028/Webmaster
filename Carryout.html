@@ -1,7 +1,10 @@
 <html lang="en" dir="ltr">
         <html>
                 <title> Nature's Cafe </title>
+                <link rel="stylesheet" href="ratestyles.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
                 <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
+                
                 <head>
                         <style>
                                 .button {
@@ -29,7 +32,7 @@
                                 .alink {color: #e1ffd8; background-color: transparent;text-decoration: none;}
                                 .btn-group .topButton {background-color: #966b57;
                                     border: none;
-                                    color: #e1ffd8;
+                                    color: #9effdb;
                                     padding: 2px 40px;
                                     text-align: center;
                                     text-decoration: none;
@@ -77,35 +80,40 @@
 <body style="margin: auto;">
 
         <form>
+                <br>
             <h1>Welcome to Nature's Cafe! Thank you for choosing us!</h1>
-            <h1>Before you order below, We will need some information about you!</h1>
+            <h1><u>Before you order below</u>, We will need some information about you!</h1>
+            <br>
             <section class="firstname">
                 <label for="firstname">What is your first name?</label>
                 <input type="text" name="firstname" id="firstname" />
             </section>
-            <hr />
+            
             <section class="lastname">
                 <label for="lastname">What is your last name?</label>
                 <input type="text" name="lastname" id="lastname" />
             </section>
-            <hr />
+            
             <section class="phonenum">
               <label for="phonenum">What is your phone number?</label>
               <input type="text" name="phonenum" id="phonenum" />
           </section>
-          <hr />
+          
           <section class="emailid">
             <label for="emailid">What is your email address?</label>
             <input type="text" name="emailid" id="emailid" />
         </section>
-        <hr />
+        <br>
+        
             <h1>Where will you picking up your order?</h1>
+            <br>
             <section class="locationorder">
                 <label for="locationorder">Type in the address of the store you will be picking up your order.</label>
                 <br>
                 <textarea id = "locationorder" name = "locationorder" rows = "10" cols = "60"> </textarea>
                 
               </section>
+              <br>
             <h1>Lets Order!</h1>
             <h6> </h6>
             <h1>What appetizer(s) would you like?</h1>
@@ -272,8 +280,8 @@
                    </table>
                    
             </section>
-            <hr>
-
+            <hr style="width: 100%; height: 2px; background-color: black; border: none;">
+<br>
         <section class="submission">
         <a href="submission.html" class = "button">Submit</a>
         <br />
