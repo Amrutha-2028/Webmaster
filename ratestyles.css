@@ -122,15 +122,15 @@ form .textarea textarea{
   height: 100%;
   width: 100%;
   outline: none;
-  color: #e1ffd8;
-  border: 1px solid #e1ffd8;
+  color: #d1dcac;
+  border: 1px solid #d1dcac;
   background: #000000;
   padding: 10px;
   font-size: 17px;
   resize: none;
 }
 .textarea textarea:focus{
-  border-color: #e1ffd8;
+  border-color: #d1dcac;
 }
 form .btn{
   height: 45px;
@@ -142,7 +142,7 @@ form .btn button{
   width: 100%;
   border: 1px solid #ffffff;
   outline: none;
-  background: #e1ffd8;
+  background: #d1dcac;
   color: #000000;
   font-size: 17px;
   font-weight: 500;
@@ -158,12 +158,12 @@ body {background-color: #d1dcac}
             .h1 {font-family: "Happy Monkey", serif; color: #000000;}
             .h4 {font-family: "Happy Monkey"; color: #000000;}
             .Logoimg {display: block; margin-left: auto; margin-right: auto;}
-            .menuBGColor {background-color: #e1ffd8;}
-            .alink {color: #e1ffd8; background-color: transparent;text-decoration: none;}
+            .menuBGColor {background-color: #d1dcac;}
+            .alink {color: #d1dcac; background-color: transparent;text-decoration: none;}
             .btn-group .topButton {background-color: #966b57;
                 border: none;
                 color: #9effdb;
-                padding: 2px 40px;
+                padding: 2px 20px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
