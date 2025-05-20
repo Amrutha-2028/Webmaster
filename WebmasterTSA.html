@@ -1,7 +1,5 @@
 <html>
     <title> Nature's Cafe </title>
-    <link rel="stylesheet" href="ratestyles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
     <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +18,7 @@
             .btn-group .topButton {background-color: #966b57;
                 border: none;
                 color: #9effdb;
-                padding: 2px 20px;
+                padding: 2px 40px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
@@ -36,6 +34,68 @@
                 width: 85%;
             }
             #img1 {clip-path: circle(50%);}
+            .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            }
+            .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 375%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #d1dcac;
+            color: rgb(28, 142, 77);
+            font-size: 14px;
+            padding: 3px 15px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 2px;
+            }
+            .btn:hover {
+            background-color: #d09b89;
+            color:#d09b89;
+            }
+            .btnOrder {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-400%, 1400%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #a2bca2;
+            color: rgb(28, 142, 77);
+            font-size: 14px;
+            padding: 3px 15px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 2px;
+            }
+            .btnOrder:hover {
+            background-color: #d09b89;
+            color:#d09b89;
+            }
+            .btnRate {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-350%, 2200%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #d1dcac;
+            color: rgb(28, 142, 77);
+            font-size: 16px;
+            padding: 3px 15px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 2px;
+            }
+            .btnRate:hover {
+            background-color: #d09b89;
+            color:#d09b89;
+            }
         </style>
     </head>
 <body style="margin: auto;">
@@ -52,10 +112,18 @@
             <button class="topButton"onclick="document.location='AboutUs.html'"><p class="p1">About Us</p></button>
             <button class="topButton"onclick="document.location='reference.html'"><p class="p1">Reference</p></button>
         </div>
-        <br>
-        <div class="center">
-            <img class="Logoimg" src="WMhomeImage.png" alt="home" width="1050" height="550">
+        <div class="center" class="container">
+            <img class="Logoimg" src="WMhomeImage.png" alt="home" width="1328" height="724">
+            <button class="btn"onclick="document.location='menu.html'"><h4 class="h4">View our menue!</h4></button></div>
            
+        </div>
+        <div>
+            <img class="Logoimg" src="WMhomeOrdernow.png" alt="home" width="1000" height="624">
+            <button class="btnOrder"onclick="document.location='reservation.html'"><h4 class="h4">Order now!</h4></button>
+        </div>
+        <div>
+            <img class="Logoimg" src="WMhomeRating.png" alt="home" width="1000" height="624">
+            <button class="btnRate"onclick="document.location='RateUs.html'"><h4 class="h4">Rate us!</h4></button>
         </div>
     </div>
     
