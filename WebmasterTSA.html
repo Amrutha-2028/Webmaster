@@ -2,6 +2,8 @@
     <title> Nature's Cafe </title>
     <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
     <head>
+    <link rel="stylesheet" href="ratestyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
@@ -15,22 +17,17 @@
             table {font-family: "Happy Monkey"; border-collapse: collapse; width: 100%; color: #d09b89;font-size:large;}
             td, th {border: 0px solid #dddddd;text-align: left; padding: 4px; color: #966b57;}
             .alink {color: #9effdb; background-color: transparent;text-decoration: none;}
-            .btn-group {
-                align-items: center;
-                justify-content: center;
-            }
             .btn-group .topButton {background-color: #966b57;
                 border: none;
                 color: #9effdb;
-                padding: 2px 40px;
+                padding: 2px 20px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 15px;
-                cursor: pointer;
-            }    
+                cursor: pointer;}    
             .btn-group .topButton:hover {
                 background-color: #d09b89;
             }
@@ -52,12 +49,13 @@
             -ms-transform: translate(-50%, -50%);
             background-color: #d1dcac;
             color: rgb(28, 142, 77);
-            font-size: 14px;
-            padding: 3px 15px;
+            font-size: 18px;
+            padding: 3px 20px;
             border: none;
             cursor: pointer;
             text-align: center;
             border-radius: 2px;
+            margin-top: 60px;
             }
             .btn:hover {
             background-color: #d09b89;
@@ -71,12 +69,14 @@
             -ms-transform: translate(-50%, -50%);
             background-color: #a2bca2;
             color: rgb(28, 142, 77);
-            font-size: 14px;
-            padding: 3px 15px;
+            font-size: 18px;
+            padding: 2px 1px;
             border: none;
             cursor: pointer;
             text-align: center;
             border-radius: 2px;
+            margin-top: 300px;
+
             }
             .btnOrder:hover {
             background-color: #d09b89;
@@ -90,12 +90,14 @@
             -ms-transform: translate(-50%, -50%);
             background-color: #d1dcac;
             color: rgb(28, 142, 77);
-            font-size: 16px;
-            padding: 3px 15px;
+            font-size: 22px;
+            padding: 3px 1px;
             border: none;
             cursor: pointer;
             text-align: center;
             border-radius: 2px;
+            margin-top: 470px;
+            margin-left: 580px;
             }
             .btnRate:hover {
             background-color: #d09b89;
@@ -108,7 +110,7 @@
         <div background-color:#d1dcac>
             <a href="WebmasterTSA.html"><img class="Logoimg" src="WMlogov2.png" alt="Logo" width="221" height="100"></a>
         </div>
-        <div class="btn-group center">
+        <div class="btn-group">
             <button class="topButton" onclick="document.location='menu.html'"><p class="p1">Menu</p></button>
             <button class="topButton" onclick="document.location='Carryout.html'"><p class="p1">Carryout</p></button>
             <button class="topButton"onclick="document.location='ContactUs.html'"><p class="p1">Contact</p></button>
@@ -118,13 +120,12 @@
             <button class="topButton"onclick="document.location='reference.html'"><p class="p1">Reference</p></button>
         </div>
         <div class="center" class="container">
-            <img class="Logoimg" src="WMhomeImage.png" alt="home" width="1328" height="724">
-            <button class="btn" onclick="document.location='menu.html'"><h4 class="h4">View our menue!</h4></button></div>
-           
+            <img class="Logoimg" src="WMhomeImage.png" alt="home" width="1000" height="500">
+            <button class="btn" onclick="document.location='menu.html'"><h4 class="h4">View our menu!</h4></button></div>
         </div>
         <div>
             <img class="Logoimg" src="WMhomeOrdernow.png" alt="home" width="1000" height="624">
-            <button class="btnOrder" onclick="document.location='Carryout.html'"><h4 class="h4">Order now!</h4></button>
+            <button class="btnOrder"onclick="document.location='reservation.html'"><h4 class="h4">Order now!</h4></button>
         </div>
         <div>
             <img class="Logoimg" src="WMhomeRating.png" alt="home" width="1000" height="624">
